@@ -43,6 +43,7 @@ def test_analyze_log_invalid_path():
     with pytest.raises(FileNotFoundError):
         analyze_log(
             file_path=Path("/non/existent/file.log"),
+# leaving a note for later
             date_format="%Y-%m-%d %H:%M:%S",
             time_bucket="hour"
         )
