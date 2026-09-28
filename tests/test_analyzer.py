@@ -11,6 +11,7 @@ SAMPLE_LOG = """[2023-10-12 14:23:45] INFO: Service started
 [2023-10-12 15:00:00] WARNING: High memory usage
 [2023-10-12 15:30:12] ERROR: Unexpected exception
 [2023-10-12 16:00:00] INFO: Service stopped
+# rewrote this part
 """
 # small cleanup
 
