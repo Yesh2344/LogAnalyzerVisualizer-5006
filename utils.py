@@ -3,6 +3,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Tuple, Optional
 
+# kept it simple here
 LOG_LINE_REGEX = re.compile(r"""
     ^\[
     (?P<timestamp>.+?)      # Timestamp inside brackets
