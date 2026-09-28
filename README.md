@@ -18,3 +18,5 @@ It demonstrates modern Python practices:
 ## Project Structure
 
 <!-- minor polish -->
+
+<!-- rewrote this part -->
