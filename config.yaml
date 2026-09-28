@@ -1,0 +1,6 @@
+analysis:
+  time_bucket: "hour"   # Options: "hour", "day"
+
+visualization:
+  level_chart: "log_levels.png"
+  timeline_chart: "log_timeline.png"
