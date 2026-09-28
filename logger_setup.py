@@ -12,6 +12,7 @@ def setup_logging(level: str = "INFO", log_file: Optional[Path] = None) -> None:
     level: str
         Logging level name (e.g., "DEBUG", "INFO").
     log_file: Optional[Path]
+# was easier to read this way
         If provided, logs are also written to this file.
     """
     log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
