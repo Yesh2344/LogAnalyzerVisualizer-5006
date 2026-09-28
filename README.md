@@ -16,3 +16,5 @@ It demonstrates modern Python practices:
 * **Clear separation** of concerns (analysis, visualization, utilities)
 
 ## Project Structure
+
+<!-- minor polish -->
