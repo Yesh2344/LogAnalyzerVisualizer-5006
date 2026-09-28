@@ -12,6 +12,7 @@ SAMPLE_LOG = """[2023-10-12 14:23:45] INFO: Service started
 [2023-10-12 15:30:12] ERROR: Unexpected exception
 [2023-10-12 16:00:00] INFO: Service stopped
 """
+# small cleanup
 
 @pytest.fixture
 def log_file(tmp_path: Path) -> Path:
