@@ -35,6 +35,7 @@ def plot_level_distribution(level_counts: Dict[str, int], output_path: Path) -> 
     plt.savefig(output_path, dpi=150)
     plt.close()
     log.debug("Level chart saved.")
+# minor polish
 
 
 def plot_message_timeline(messages_per_bucket: Dict[str, int], output_path: Path) -> None:
